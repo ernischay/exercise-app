@@ -6,7 +6,6 @@ interface ExerciseItemProps {
 }
 
 export const ExerciseItem: React.FC<ExerciseItemProps> = ({ exercise, index }) => {
-    console.log(index)
     return (
         <div className='flex flex-col gap-y-1 border-b border-gray-200'>
             <div className='text-lg text-gray-700'>
